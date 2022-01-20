@@ -2,6 +2,8 @@ let gamePattern = [];
 let buttonColors = ["red", "blue", "green", "yellow"];
 let userClickedPattern = [];
 
+// $(document).keypress(nextSequence);
+
 function nextSequence() {
   let randomNumber = Math.floor(Math.random() * 4);
   let randomChosen = buttonColors[randomNumber];
